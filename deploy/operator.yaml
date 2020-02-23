@@ -15,8 +15,7 @@ spec:
       serviceAccountName: funk-operator
       containers:
         - name: funk-operator
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: leg100/funk-operator:latest
           command:
           - funk-operator
           imagePullPolicy: Always
