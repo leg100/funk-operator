@@ -71,6 +71,7 @@ rules:
   resources:
   - '*'
   - workspaces
+  - operations
   verbs:
   - create
   - delete

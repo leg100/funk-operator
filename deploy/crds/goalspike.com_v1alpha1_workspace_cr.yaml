@@ -3,4 +3,3 @@ kind: Workspace
 metadata:
   name: example-workspace
 spec:
-  name: default

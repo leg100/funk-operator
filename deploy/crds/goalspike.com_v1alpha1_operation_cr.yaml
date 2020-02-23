@@ -1,0 +1,7 @@
+apiVersion: goalspike.com/v1alpha1
+kind: Operation
+metadata:
+  name: example-operation
+spec:
+  workspace: example-workspace
+  command: validate
