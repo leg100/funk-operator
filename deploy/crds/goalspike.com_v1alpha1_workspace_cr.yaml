@@ -1,0 +1,6 @@
+apiVersion: goalspike.com/v1alpha1
+kind: Workspace
+metadata:
+  name: example-workspace
+spec:
+  bucket: automatize-tfstate
