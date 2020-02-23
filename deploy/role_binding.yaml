@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: funk-operator
+subjects:
+- kind: ServiceAccount
+  name: funk-operator
+roleRef:
+  kind: Role
+  name: funk-operator
+  apiGroup: rbac.authorization.k8s.io
