@@ -30,25 +30,6 @@ spec:
           type: object
         spec:
           description: WorkspaceSpec defines the desired state of Workspace
-          properties:
-            backend:
-              description: 'INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
-                Important: Run "operator-sdk generate k8s" to regenerate code after
-                modifying this file Add custom validation using kubebuilder tags:
-                https://book-v1.book.kubebuilder.io/beyond_basics/generating_crd.html'
-              properties:
-                config:
-                  additionalProperties:
-                    type: string
-                  type: object
-                type:
-                  type: string
-              required:
-              - config
-              - type
-              type: object
-          required:
-          - backend
           type: object
         status:
           description: WorkspaceStatus defines the observed state of Workspace
